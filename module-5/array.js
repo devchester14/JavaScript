@@ -19,8 +19,26 @@ let studentName = ["praveen","rawat","sunny","rawat","aman","balli",["arcStar","
 /**
  * Dry means, do not repeat yourself. DRY CODE
  */
-let arrLength = studentName.length
+// let arrLength = studentName.length
 
-for(let i=0;i<arrLength;i++){
-    console.log(studentName[i])
+// for(let i=0;i<arrLength;i++){
+//     console.log(studentName[i])
+// }
+
+/**for let of */
+
+for (let name of studentName){
+    console.log(name)
+}
+
+/**for let in */
+
+for (let name in studentName){
+    console.log(name)
+}
+
+// let of give you all the elements in the array and let in gives you index of all the elements in array
+
+for(let index in studentName){
+    console.log(studentName[index])
 }

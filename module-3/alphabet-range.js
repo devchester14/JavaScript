@@ -15,6 +15,6 @@ let  alphabets = (a, b) => {
     }
     return answer}
     
-    let result = alphabets("b","e")
+    let result = alphabets("a","z")
     console.log(typeof result)
     console.log(String(result))
