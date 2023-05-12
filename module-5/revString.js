@@ -23,11 +23,10 @@ The input s is provided as a parameter to the function reverseString. You need t
  */
 
 
-
+function reverseString(s){
 let rev="";
 for (let i=s.length-1;i>=0;i--){
     rev+=s[i]
 }
-return rev;``
+return rev;``}
 //write your code here
-}
