@@ -12,4 +12,4 @@ the arr.sort() method is used to sort the array in place in a given order accord
 it returns the reference of sorted original array
 
 arr.sort(comparisionFunction)
-compareFunction(a,b)<0,>0,=0
+compareFunction(a,b)<0,>0,=0;
