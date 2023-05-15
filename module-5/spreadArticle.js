@@ -183,7 +183,7 @@ Output
 
 { name: 'Jen', age: 22 }
 
-Here we are spreading the user1 object. All key-value pairs of the user1 object are copied into the clonedUser object. Let’s look on another example of merging two objects using the spread operator,
+Here we are spre ading the user1 object. All key-value pairs of the user1 object are copied into the clonedUser object. Let’s look on another example of merging two objects using the spread operator,
 
 const user1 = {
     name: 'Jen',
