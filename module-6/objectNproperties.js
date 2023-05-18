@@ -21,7 +21,7 @@ school.displayInfo();
  * objects is defined as an unordered collection of related data, of primitive or reference types in the form of key value poaris. these keys can be variables or functions and are called properties and methods in context of an objectr
  * The property names can be strings or numbers . in case the property names are numbers theuy must be accessed using the bracket notation
  * 
- * let school = {
+ * let school  = {
         name: 'Vivekananda School',
         location : 'Delhi',
         established : '1971',
