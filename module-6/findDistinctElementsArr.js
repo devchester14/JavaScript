@@ -59,14 +59,14 @@ Constraints:
 
 
 
-
-let distinctElements = new Set(matrix[0]); // Initialize with the elements of the first row
+distinct(arr,n){
+let distinctElements = new Set(arr[0]); // Initialize with the elements of the first row
 
 for (let i = 1; i < n; i++) {
   // Iterate through each row starting from the second row
-  let rowSet = new Set(matrix[i]);
+  let rowSet = new Set(arr[i]);
   distinctElements = new Set([...distinctElements].filter((x) => rowSet.has(x)));
   // Retain only the elements that are present in both sets
 }
 
-return distinctElements.size;
+return distinctElements.size;}
