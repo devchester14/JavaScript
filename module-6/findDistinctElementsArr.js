@@ -49,16 +49,6 @@ Constraints:
 
 
 
-
-
-
-
-
-
-
-
-
-
 distinct(arr,n){
 let distinctElements = new Set(arr[0]); // Initialize with the elements of the first row
 
